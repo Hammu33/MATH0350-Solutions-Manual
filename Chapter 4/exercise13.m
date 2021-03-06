@@ -2,6 +2,9 @@
 u = x;
 v = x.^2;
 quiver(x, y, u, v);
-startx = -1:0.3:1;
-starty = zeros(size(startx));
+xlabel('x')
+ylabel('y')
+
+startx = [repmat(-0.05,1,7) repmat(0.05,1,7)];
+starty = [-3:3 -3:3];
 streamline(x, y, u, v, startx, starty);
