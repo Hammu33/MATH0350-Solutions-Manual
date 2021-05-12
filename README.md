@@ -1,4 +1,4 @@
-# Additional Resources for Solutions 
+# Additional Resources for Vector Calculus
 
 *Course:* Brown University Honors Calculus (MATH 0350), Spring 2021.
 
